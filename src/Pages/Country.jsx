@@ -17,10 +17,7 @@ const Country = () => {
       getCountryData()
   }, [])
   
-//   const CountryElement = countryData.map((element,index) => {
-//       return <SingleCountry element={element} key={index}/>
-//   })
-
+  
   return (
      <div className="country">
          <Link to="/">

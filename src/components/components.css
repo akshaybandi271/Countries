@@ -139,6 +139,11 @@ h2{
     display: inline;
     margin-left: 10px;
 }
+.back-btn{
+    padding: 10px 15px;
+    font-size: 1rem;
+    margin: 25px;
+}
 
 
 /* =============Media Queries ================== */
@@ -181,5 +186,8 @@ h2{
     .country-container{
         flex-direction: column;
         align-items: center; 
+    }
+    .border-countries{
+        font-size: 0.7rem;
     }
 }
